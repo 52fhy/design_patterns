@@ -28,18 +28,17 @@ class App
         if(!empty($uri_arr[0]) && !empty($uri_arr[1])){
             $controller = $uri_arr[0];
             $action = $uri_arr[1];
+        }else{
+            $controller = 'Index';
+            $action = 'index';
+        }
 
-            $class = '\\Test\\' . $controller;
-            $obj = new $class();
+        $class = '\\App\\' . $controller;
+        $obj = new $class();
 
-            if(method_exists($obj, $action)){
-                $res = $obj->$action();
-                if($res) echo json_encode($res);
-            }else{
-                header('HTTP/1.1 404 Not Found');
-                exit('404 not found.');
-            }
-
+        if(method_exists($obj, $action)){
+            $res = $obj->$action();
+            if($res) echo json_encode($res);
         }else{
             header('HTTP/1.1 404 Not Found');
             exit('404 not found.');

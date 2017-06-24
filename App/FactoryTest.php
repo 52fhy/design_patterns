@@ -6,7 +6,7 @@
  * Time: 11:14
  */
 
-namespace Test;
+namespace App;
 
 
 use Yjc\Db;
@@ -19,7 +19,7 @@ class FactoryTest
     public function index(){
 
         $db = new Db();
-        echo $db->query();
+        $db->query();
     }
 
     public function factory(){
