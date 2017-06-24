@@ -38,10 +38,11 @@ class App
 
         if(method_exists($obj, $action)){
             $res = $obj->$action();
-            if($res) echo json_encode($res);
+            if($res) echo json_encode(['code' => 0, 'info' => 'succ', 'result' => $res]);
         }else{
             header('HTTP/1.1 404 Not Found');
-            exit('404 not found.');
+//            exit('404 not found.');
+            echo json_encode(['code' => 1, 'info' => '404 not found']);
         }
     }
 

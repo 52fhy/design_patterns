@@ -17,7 +17,7 @@ class StrategyTest
         $md5 = new Md5();
         $md5->update('123');
         $md5->update('456');
-        echo $md5->hexdigest();
+        return $md5->hexdigest();
     }
 
 }
