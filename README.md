@@ -66,3 +66,6 @@ AdapterTest/index2
 
 ### 装饰器模式
 /DecoratorTest/index
+
+### 原型模式
+PrototypeTest/index
