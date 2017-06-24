@@ -57,15 +57,19 @@ URL路径：http://localhost:8888/FactoryTest/index
 ### 注册树模式
 /RegisterTest/index
 
+### 原型模式
+/PrototypeTest/index
+
 ### 适配器模式
 /AdapterTest/index  
 AdapterTest/index2
 
-### 策略模式
-/StrategyTest/index
-
 ### 装饰器模式
 /DecoratorTest/index
 
-### 原型模式
-/PrototypeTest/index
+### 策略模式
+/StrategyTest/index
+
+### 迭代器模式
+/IteratorTest/index
+
