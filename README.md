@@ -26,3 +26,7 @@ URL路径：http://localhost:8888/FactoryTest/index
 
 ### 注册树模式
 /RegisterTest/index
+
+### 适配器模式
+/AdapterTest/index  
+AdapterTest/index2
