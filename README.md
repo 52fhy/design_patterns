@@ -1,4 +1,4 @@
-# PHP设计模式代码实现及测试
+# PHP设计模式
 
 代码实现均在`Yjc`目录，测试代码在`App`里。
 
@@ -11,11 +11,11 @@
 ### [简介](docs/intro.md)
 ### [创建模式](docs/creational_patterns.md)
 - [工厂模式](docs/creational_patterns/factory.md)
-- [抽象工厂](docs/creational_patterns/factory.md)
-- [单例模式](docs/creational_patterns/factory.md)
-- [注册树模式](docs/creational_patterns/factory.md)
-- [原型模式](docs/creational_patterns/factory.md)
-- [构造模式](docs/creational_patterns/factory.md)
+- [抽象工厂](docs/creational_patterns/abstract_factory.md)
+- [单例模式](docs/creational_patterns/singleton.md)
+- [注册树模式](docs/creational_patterns/registry.md)
+- [原型模式](docs/creational_patterns/proto.md)
+- [构造模式](docs/creational_patterns/builder.md)
 ### [架构模式](docs/structural_patterns.md)
 - [装饰器模式](docs/structural_patterns/decorator.md)
 - [适配器模式](docs/structural_patterns/adapter.md)
@@ -24,11 +24,12 @@
 - [策略模式](docs/behavioral_patterns/strategy.md)
 - [观察者模式](docs/behavioral_patterns/observer.md)
 - [迭代器模式](docs/behavioral_patterns/observer.md)
-- [责任链模式](docs/behavioral_patterns/observer.md)
+- [责任链模式](docs/behavioral_patterns/chains.md)
+### [参考](docs/refer.md)
 
 ## 开始测试
 
-需要有运行环境。使用PHP7的同学可以直接使用下面的方法开启Server，免去安装Nginx+PHP环境烦扰。
+需要有运行环境。使用PHP7的同学可以直接使用下面的方法开启Server，免去Nginx配置PHP环境烦扰。
 
 ### 开启server
 ```
