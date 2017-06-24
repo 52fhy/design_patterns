@@ -23,7 +23,7 @@ class DbSingleton extends Db
         return self::$db;
     }
 
-    /**禁止使用构造函数*/
+    /**私有化构造方法，禁止外部实例化*/
     private function __construct() {}
 
     /**禁止克隆*/
