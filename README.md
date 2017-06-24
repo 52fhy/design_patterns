@@ -39,3 +39,6 @@ AdapterTest/index2
 
 ### 策略模式
 /StrategyTest/index
+
+### 装饰器模式
+/DecoratorTest/index
