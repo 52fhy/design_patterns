@@ -1,6 +1,10 @@
 # design_pattern
 PHP设计模式
 
+## 设计模式
+![](http://images2015.cnblogs.com/blog/663847/201706/663847-20170624154459632-345927443.png)
+
+
 ## 开启server
 ```
 php -S 0.0.0.0:8888
