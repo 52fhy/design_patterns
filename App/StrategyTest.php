@@ -9,15 +9,18 @@
 namespace App;
 
 
+use Yjc\App;
 use Yjc\Strategy\Md5;
 
-class StrategyTest
+class StrategyTest extends App
 {
     public function index(){
         $md5 = new Md5();
         $md5->update('123');
         $md5->update('456');
         return $md5->hexdigest();
+//        $this->assign('name', 'vvv');
+//        $this->display();
     }
 
 }
