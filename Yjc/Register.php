@@ -11,5 +11,24 @@ namespace Yjc;
 
 class Register
 {
+    private static $objs = [];
+
+    public static function set($key ,$obj){
+        self::$objs[$key] = $obj;
+    }
+
+    public static function get($key){
+        if(isset(self::$objs[$key])){
+            return self::$objs[$key];
+        }
+
+        return false;
+    }
+
+    public static function remove($key){
+        if(isset(self::$objs[$key])){
+            unset(self::$objs[$key]);
+        }
+    }
 
 }

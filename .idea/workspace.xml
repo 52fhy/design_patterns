@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e4bb62e-abcb-407d-8360-46649318f9ae" name="默认" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yjc/DbSingleton.php" afterPath="$PROJECT_DIR$/Yjc/DbSingleton.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yjc/Register.php" afterPath="$PROJECT_DIR$/Yjc/Register.php" />
     </list>
     <ignored path="design_pattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,12 +34,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbSingleton.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DbSingleton.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Yjc/DbSingleton.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Yjc/Register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/RegisterTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="25" column="23" selection-start-line="17" selection-start-column="8" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="e#107#127#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="410">
+                <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -62,8 +98,10 @@
         <option value="$PROJECT_DIR$/App/FactoryTest.php" />
         <option value="$PROJECT_DIR$/Yjc/App.php" />
         <option value="$PROJECT_DIR$/App/Index.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Yjc/DbSingleton.php" />
+        <option value="$PROJECT_DIR$/Yjc/Register.php" />
+        <option value="$PROJECT_DIR$/App/RegisterTest.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -242,12 +280,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498272875769</updated>
       <workItem from="1498272877127" duration="3769000" />
-      <workItem from="1498277026365" duration="836000" />
+      <workItem from="1498277026365" duration="1391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4605000" />
+    <option name="totallyTimeSpent" value="5160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -351,14 +389,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Controller/Test.php" />
-    <entry file="file://$PROJECT_DIR$/Yjc/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Yjc/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -421,17 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="314">
-            <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Yjc/App.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -445,6 +464,35 @@
         <state relative-caret-position="289">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yjc/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/RegisterTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="25" column="23" selection-start-line="17" selection-start-column="8" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#107#127#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="410">
+            <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -23,3 +23,6 @@ URL路径：http://localhost:8888/FactoryTest/index
 
 ### 单例模式
 /FactoryTest/factory2
+
+### 注册树模式
+/RegisterTest/index
