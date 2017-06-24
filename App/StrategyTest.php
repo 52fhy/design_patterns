@@ -19,8 +19,6 @@ class StrategyTest extends App
         $md5->update('123');
         $md5->update('456');
         return $md5->hexdigest();
-//        $this->assign('name', 'vvv');
-//        $this->display();
     }
 
 }

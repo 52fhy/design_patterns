@@ -66,7 +66,7 @@ class App implements IResponse
 
     public function output($data)
     {
-        return (new Json($this))->output($data);
+        return (new Template($this))->output($data);
     }
 
     /**
