@@ -30,3 +30,6 @@ URL路径：http://localhost:8888/FactoryTest/index
 ### 适配器模式
 /AdapterTest/index  
 AdapterTest/index2
+
+### 策略模式
+/StrategyTest/index
