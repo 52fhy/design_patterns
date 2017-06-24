@@ -14,7 +14,7 @@
 - [抽象工厂](docs/creational_patterns/abstract_factory.md)
 - [单例模式](docs/creational_patterns/singleton.md)
 - [注册树模式](docs/creational_patterns/registry.md)
-- [原型模式](docs/creational_patterns/proto.md)
+- [原型模式](docs/creational_patterns/prototype.md)
 - [构造模式](docs/creational_patterns/builder.md)
 ### [架构模式](docs/structural_patterns.md)
 - [装饰器模式](docs/structural_patterns/decorator.md)
