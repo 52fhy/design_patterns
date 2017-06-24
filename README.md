@@ -23,7 +23,7 @@
 ### [行为模式](docs/behavioral_patterns.md)
 - [策略模式](docs/behavioral_patterns/strategy.md)
 - [观察者模式](docs/behavioral_patterns/observer.md)
-- [迭代器模式](docs/behavioral_patterns/observer.md)
+- [迭代器模式](docs/behavioral_patterns/iterator.md)
 - [责任链模式](docs/behavioral_patterns/chains.md)
 ### [参考](docs/refer.md)
 
