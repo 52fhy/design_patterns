@@ -68,4 +68,4 @@ AdapterTest/index2
 /DecoratorTest/index
 
 ### 原型模式
-PrototypeTest/index
+/PrototypeTest/index
