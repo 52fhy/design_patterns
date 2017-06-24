@@ -13,7 +13,10 @@ php -S 0.0.0.0:8888
 
 普通模式：
 /FactoryTest/index  
-示例：http://localhost:8888/FactoryTest/index
+
+示例：  
+URL路径：http://localhost:8888/FactoryTest/index  
+对应文件：App/FactoryTest  
 
 工厂模式：
 /FactoryTest/factory
