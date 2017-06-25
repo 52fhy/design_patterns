@@ -6,7 +6,7 @@
  * Time: 11:11
  */
 
-namespace Yjc;
+namespace Yjc\Singleton;
 
 class Db
 {

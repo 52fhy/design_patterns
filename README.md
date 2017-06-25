@@ -52,7 +52,7 @@ URL路径：http://localhost:8888/SimpleFactoryTest/index
 /FactoryTest/index
 
 ### 单例模式
-/FactoryTest/factory2
+/SingletonTest/index
 
 ### 注册树模式
 /RegisterTest/index

@@ -10,12 +10,21 @@
 - 单例类必须自己创建自己的唯一实例。
 - 单例类必须给所有其他对象提供这一实例。
 
-示例：我们新建DbSingleton类：
+示例：我们新建Factory类：
 ``` php
-<?php
-namespace Yjc;
+namespace Yjc\Singleton;
+class Db
+{
+    public function query(){
+        echo 'query'.PHP_EOL;
+    }
 
-class DbSingleton extends Db
+    public function exec(){
+        echo 'exec'.PHP_EOL;
+    }
+}
+
+class Factory extends Db
 {
     private static $db = null;
 
@@ -29,7 +38,7 @@ class DbSingleton extends Db
         return self::$db;
     }
 
-    /**禁止使用构造函数*/
+    /**私有化构造方法，禁止外部实例化*/
     private function __construct() {}
 
     /**禁止克隆*/
@@ -39,11 +48,11 @@ class DbSingleton extends Db
 
 测试：
 ``` php
-$db = DbSingleton::getInstance();
+$db = Factory::getInstance();
 $db->query();
 var_dump($db);
 
-$db2 = DbSingleton::getInstance();
+$db2 = Factory::getInstance();
 $db->exec();
 var_dump($db2);
 ```

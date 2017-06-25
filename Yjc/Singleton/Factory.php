@@ -6,10 +6,9 @@
  * Time: 11:55
  */
 
-namespace Yjc;
+namespace Yjc\Singleton;
 
-
-class DbSingleton extends Db
+class Factory extends Db
 {
     private static $db = null;
 
@@ -28,5 +27,4 @@ class DbSingleton extends Db
 
     /**禁止克隆*/
     private function __clone() {}
-
 }
