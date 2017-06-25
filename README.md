@@ -51,6 +51,9 @@ URL路径：http://localhost:8888/SimpleFactoryTest/index
 ### 工厂方法
 /FactoryTest/index
 
+### 抽象工厂
+/AbstractFactoryTest/index
+
 ### 单例模式
 /SingletonTest/index
 
