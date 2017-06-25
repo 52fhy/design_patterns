@@ -73,6 +73,9 @@ AdapterTest/index2
 ### 策略模式
 /StrategyTest/index
 
+### 观察者模式
+/Observertest/index
+
 ### 迭代器模式
 /IteratorTest/index
 
