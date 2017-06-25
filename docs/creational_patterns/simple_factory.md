@@ -3,13 +3,14 @@
 
 也就是使用的时候通过传参来确定生成不同的对象。
 
-简单工厂UML图：
+简单工厂UML图：  
 ![](http://images2015.cnblogs.com/blog/663847/201706/663847-20170625084348116-1798368462.png)
 
 简单工厂需要有3个角色：
-1)、Product接口类：用于定义产品规范；
-2)、具体的产品实现，例如ConcreateProductA、ConcreateProductB；
-3)、简单工厂类SimpleFactory：用于生成具体的产品。
+
+- Product接口类：用于定义产品规范；
+- 具体的产品实现，例如ConcreateProductA、ConcreateProductB；
+- 简单工厂类SimpleFactory：用于生成具体的产品。
 
 使用的时候通过传参数给简单工厂类，可以生成想要的产品。
 
@@ -73,14 +74,14 @@ $car = SimpleFactory::makeCar('benz');
 $car->driver();
 ```
 
-简单工厂的优点/缺点： 
+简单工厂的优点/缺点：  
 
 优点：简单工厂模式能够根据外界给定的信息，决定究竟应该创建哪个具体类的对象。明确区分了各自的职责和权力，有利于整个软件体系结构的优化。
 
 缺点：很明显工厂类集中了所有实例的创建逻辑，容易违反GRASPR的高内聚的责任分配原则。
 
 >参考：  
-1、设计模式：简单工厂、工厂方法、抽象工厂之小结与区别 - superbeck的专栏 - 博客频道 - CSDN.NET
+1、设计模式：简单工厂、工厂方法、抽象工厂之小结与区别 - superbeck的专栏 - 博客频道 - CSDN.NET  
 http://blog.csdn.net/superbeck/article/details/4446177  
-2、简单工厂、工厂方法、抽象工厂、策略模式、策略与工厂的区别 - Danny Chen - 博客园
-http://www.cnblogs.com/zhangchenliang/p/3700820.html
+2、简单工厂、工厂方法、抽象工厂、策略模式、策略与工厂的区别 - Danny Chen - 博客园  
+http://www.cnblogs.com/zhangchenliang/p/3700820.html  
