@@ -6,6 +6,6 @@
 
 目前常见的设计模式主要有23种，根据使用目标的不同可以分为以下三大类：
 
-创建模式(Creational Patterns)：用于创建对象从而将某个对象从实现中解耦合。
-架构模式(Structural Patterns)：用于在不同的对象之间构造大的对象结构。
-行为模式(Behavioral Patterns)：用于在不同的对象之间管理算法、关系以及职责。
+- 创建模式(Creational Patterns)：用于创建对象从而将某个对象从实现中解耦合。
+- 架构模式(Structural Patterns)：用于在不同的对象之间构造大的对象结构。
+- 行为模式(Behavioral Patterns)：用于在不同的对象之间管理算法、关系以及职责。
