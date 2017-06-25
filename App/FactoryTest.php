@@ -8,40 +8,14 @@
 
 namespace App;
 
-
 use Yjc\Db;
 use Yjc\DbSingleton;
 use Yjc\Factory;
 
 class FactoryTest
 {
-
     public function index(){
-
-        $db = new Db();
-        $db->query();
+        $car = Factory\FactoryBenz::makeCar();
+        $car->driver();
     }
-
-    public function factory(){
-
-        $db = Factory::getDb();
-        $db->query();
-        var_dump($db);
-
-        $db2 = Factory::getDb();
-        $db->exec();
-        var_dump($db2);
-    }
-
-    public function factory2(){
-
-        $db = DbSingleton::getInstance();
-        $db->query();
-        var_dump($db);
-
-        $db2 = DbSingleton::getInstance();
-        $db->exec();
-        var_dump($db2);
-    }
-
 }

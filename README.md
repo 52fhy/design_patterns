@@ -11,7 +11,7 @@
 ### [简介](docs/intro.md)
 ### 创建模式
 - [简单工厂](docs/creational_patterns/simple_factory.md)
-- [工厂模式](docs/creational_patterns/factory.md)
+- [工厂方法](docs/creational_patterns/factory.md)
 - [抽象工厂](docs/creational_patterns/abstract_factory.md)
 - [单例模式](docs/creational_patterns/singleton.md)
 - [注册树模式](docs/creational_patterns/registry.md)
