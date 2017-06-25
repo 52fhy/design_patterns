@@ -10,6 +10,7 @@
 
 ### [简介](docs/intro.md)
 ### 创建模式
+- [简单工厂](docs/creational_patterns/simple_factory.md)
 - [工厂模式](docs/creational_patterns/factory.md)
 - [抽象工厂](docs/creational_patterns/abstract_factory.md)
 - [单例模式](docs/creational_patterns/singleton.md)
@@ -39,16 +40,15 @@ php -S 0.0.0.0:8888
 
 ## 设计模式测试
 
+### 简单工厂
+/SimpleFactoryTest/index
+
+示例：   
+URL路径：http://localhost:8888/SimpleFactoryTest/index    
+对应文件：App/SimpleFactoryTest  
+对应源码：Yjc/SimpleFactory  
+
 ### 工厂模式
-
-普通模式：
-/FactoryTest/index  
-
-示例：  
-URL路径：http://localhost:8888/FactoryTest/index  
-对应文件：App/FactoryTest  
-
-工厂模式：
 /FactoryTest/factory
 
 ### 单例模式
