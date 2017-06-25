@@ -48,8 +48,8 @@ URL路径：http://localhost:8888/SimpleFactoryTest/index
 对应文件：App/SimpleFactoryTest  
 对应源码：Yjc/SimpleFactory  
 
-### 工厂模式
-/FactoryTest/factory
+### 工厂方法
+/FactoryTest/index
 
 ### 单例模式
 /FactoryTest/factory2
